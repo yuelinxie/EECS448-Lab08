@@ -1,0 +1,33 @@
+body{
+    background-image: url("Background Picture.jpg"); background-size: 100%;
+    background-attachment: fixed;
+}
+
+.header{
+    text-align: left;
+    color: black;
+    font-size: 15px; 
+}
+#story{
+    background-color: transparent;
+    color: black;
+    font-family: sans-serif;
+    font-style: left;
+}
+#story:hover{
+    background-color: cadetblue;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: left;
+}
+a{
+    background-color: transparent;
+    color:#551A8B;
+
+}
+a:hover{
+    background-color: cadetblue;
+    color: gold;
+    font-size: 20px;
+}

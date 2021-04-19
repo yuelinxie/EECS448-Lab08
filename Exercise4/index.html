@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 4: CSS Manipulation</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Yuelin Xie">
+        <meta name="description" content="Exercise 4: CSS Manipulation">
+        <link href="myStyle.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="header">
+        <h1>
+            Exercise 4: CSS Manipulation
+        </h1>
+        </div>
+        <textarea name="story" id="story" rows="9" cols="60" readonly>
+        Do you know this sentence? The sharp edge of the sword is obtained from constant sharpening, and the plum blossoms that have survived the cold winter are even more scented. 
+        </textarea><BR/><BR/>
+
+        <div class="bprder control">
+            <p>Border control:</p>
+            <p>Enter a border color:<input id="border_color" type="color"></input></p>
+            <p>Enter a border width:<input id="border_width" type="number"></input></p>
+            <BR/>
+        </div>
+
+        <div class="background control">
+            <p>Background control:</p>
+            <p>Enter a background color:<input id="background_color" type="color"></input></p>
+            <BR/>
+        </div>
+
+        <button id="button" onclick="use()">USE</button>
+
+        <script src="exercise4.js"></script>
+    </body>
+</html>
